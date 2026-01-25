@@ -65,7 +65,7 @@ for all `x`.
 ## Usage
 
 ```javascript
-import identity from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-identity@deno/mod.js';
+import identity from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-identity@v0.1.0-deno/mod.js';
 ```
 
 #### identity( x )
@@ -99,7 +99,7 @@ v = identity( 255 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import identity from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-identity@deno/mod.js';
+import identity from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-identity@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'uint8'
